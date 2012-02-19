@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:orderingFromXml="true"
+        android:title="@string/preferencesUniversityCredentialsCatagory" >
+        <EditTextPreference
+            android:dialogTitle="@string/preferencesUniversityUsernameDialogTitle"
+            android:key="userUniversityUsername" />
+        <EditTextPreference
+            android:dialogTitle="@string/preferencesUniversityPasswordDialogTitle"
+            android:key="userUniversityPassword" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:orderingFromXml="true"
+        android:title="@string/preferencesUniversityEmailCatagory" >
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:orderingFromXml="true"
+        android:title="@string/preferencesUniversityCalenderCatagory" >
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:orderingFromXml="true"
+        android:title="@string/preferencesUniversityContactsCatagory" >
+    </PreferenceCategory>
+
+</PreferenceScreen>

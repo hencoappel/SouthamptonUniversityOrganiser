@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Southampton University Organiser</string>
+    <string name="preferencesUniversityCredentialsCatagory">University Credentials</string>
+    <string name="preferencesUniversityUsernameDialogTitle">Username</string>
+    <string name="preferencesUniversityPasswordDialogTitle">Password</string>
+    <string name="preferencesUniversityEmailCatagory">University Email</string>
+    <string name="preferencesUniversityCalenderCatagory">University Calender</string>
+    <string name="preferencesUniversityContactsCatagory">University Contacts</string>
+    <string name="organiserMenuPreferences">Preferences</string>
+    <string name="preferencesActivityLabel">Preferences</string>
+
+</resources>
