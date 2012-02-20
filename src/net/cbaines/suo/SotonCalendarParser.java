@@ -14,11 +14,13 @@ import net.fortuna.ical4j.model.Property;
 
 public class SotonCalendarParser implements CalendarParser {
 
-	public void parse(InputStream in, ContentHandler handler) throws IOException, ParserException {
+	public void parse(InputStream in, ContentHandler handler)
+			throws IOException, ParserException {
 		parse(new InputStreamReader(in), handler);
 	}
 
-	public void parse(Reader in, ContentHandler handler) throws IOException, ParserException {
+	public void parse(Reader in, ContentHandler handler) throws IOException,
+			ParserException {
 
 		BufferedReader reader = new BufferedReader(in);
 
