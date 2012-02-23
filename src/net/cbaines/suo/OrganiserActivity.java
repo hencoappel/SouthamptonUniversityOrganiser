@@ -1,6 +1,8 @@
 package net.cbaines.suo;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,7 +16,6 @@ import org.apache.http.cookie.Cookie;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.protocol.HTTP;
-import org.apache.http.util.EntityUtils;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -74,12 +75,7 @@ public class OrganiserActivity extends Activity implements TestCredentials {
 
 			Log.i(TAG, "Login form get: " + response.getStatusLine());
 			// EntityUtils.consume(entity);
-			final String responseText = EntityUtils.toString(response.getEntity());
-			if (responseText.contains("<title>Login Failed<title>")) {
-				Log.i(TAG, "Login failed");
-			} else {
-				Log.i(TAG, "Login success");
-			}
+			BufferedReader br = new BufferedReader(new InputStreamReader(entity.getContent()));
 
 			Log.i(TAG, "Post logon cookies:");
 			cookies = httpclient.getCookieStore().getCookies();
