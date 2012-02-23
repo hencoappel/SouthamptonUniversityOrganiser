@@ -15,16 +15,31 @@ public final class R {
         public static final int ic_menu_preferences=0x7f020001;
     }
     public static final class id {
-        public static final int menu_preferences=0x7f070000;
+        public static final int menu_preferences=0x7f070006;
+        public static final int message=0x7f070000;
+        public static final int message_bottom=0x7f070004;
+        public static final int ok_button=0x7f070005;
+        public static final int password_edit=0x7f070003;
+        public static final int username_edit=0x7f070001;
+        public static final int username_fixed=0x7f070002;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
+        public static final int login_activity=0x7f030000;
+        public static final int main=0x7f030001;
     }
     public static final class menu {
         public static final int organiser_menu=0x7f060000;
     }
     public static final class string {
         public static final int app_name=0x7f050000;
+        public static final int label=0x7f05000c;
+        public static final int login_activity_loginfail_text_both=0x7f05000e;
+        public static final int login_activity_loginfail_text_pwmissing=0x7f050011;
+        public static final int login_activity_loginfail_text_pwonly=0x7f05000f;
+        public static final int login_activity_newaccount_text=0x7f050010;
+        public static final int login_activity_ok_button=0x7f05000b;
+        public static final int login_activity_password_label=0x7f05000a;
+        public static final int login_activity_username_label=0x7f050009;
         public static final int organiserMenuPreferences=0x7f050007;
         public static final int preferencesActivityLabel=0x7f050008;
         public static final int preferencesUniversityCalenderCatagory=0x7f050005;
@@ -33,8 +48,12 @@ public final class R {
         public static final int preferencesUniversityEmailCatagory=0x7f050004;
         public static final int preferencesUniversityPasswordDialogTitle=0x7f050003;
         public static final int preferencesUniversityUsernameDialogTitle=0x7f050002;
+        public static final int ui_activity_authenticating=0x7f05000d;
     }
     public static final class xml {
-        public static final int preferences=0x7f040000;
+        public static final int account_preferences=0x7f040000;
+        public static final int authenticator=0x7f040001;
+        public static final int preferences=0x7f040002;
+        public static final int syncadapter=0x7f040003;
     }
 }

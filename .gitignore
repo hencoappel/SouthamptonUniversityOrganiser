@@ -7,3 +7,4 @@ bin/
 .settings/
 .metadata/
 .classpath
+src/net/cbaines/suo/TestCredentials.java

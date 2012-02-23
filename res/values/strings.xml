@@ -10,5 +10,14 @@
     <string name="preferencesUniversityContactsCatagory">University Contacts</string>
     <string name="organiserMenuPreferences">Preferences</string>
     <string name="preferencesActivityLabel">Preferences</string>
+    <string name="login_activity_username_label">Preferences</string>
+    <string name="login_activity_password_label">Preferences</string>
+    <string name="login_activity_ok_button">Preferences</string>
+    <string name="label">Preferences</string>
+    <string name="ui_activity_authenticating">Preferences</string>
+    <string name="login_activity_loginfail_text_both">Preferences</string>
+    <string name="login_activity_loginfail_text_pwonly">Preferences</string>
+    <string name="login_activity_newaccount_text">Preferences</string>
+    <string name="login_activity_loginfail_text_pwmissing">Preferences</string>
 
 </resources>

@@ -1,0 +1,15 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="General Settings" />
+
+    <PreferenceScreen
+        android:key="account_settings"
+        android:summary="Sync email, calender, etc."
+        android:title="Account Settings" >
+        <intent
+            android:action="net.cbaines.suo.OrganiserActivity"
+            android:targetClass="net.cbaines.suo.OrganiserActivity"
+            android:targetPackage="net.cbaines.suo" />
+    </PreferenceScreen>
+
+</PreferenceScreen>
